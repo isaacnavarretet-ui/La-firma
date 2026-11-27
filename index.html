@@ -198,6 +198,12 @@
       .path-calc .hint { color: var(--ink-soft); }
       .btn-calc { background: #b3261e; color: #fff; }
       .btn-calc:hover { background: #8f1d17; }
+      .calc-ico {
+        flex: none; width: 52px; height: 52px; border-radius: 50%;
+        display: inline-flex; align-items: center; justify-content: center;
+        background: #b3261e; color: #e9c979;
+      }
+      .calc-ico svg { display: block; }
 
 
       /* ---------- Sections ---------- */
@@ -438,6 +444,7 @@
           </div>
 
           <div class="path path-calc">
+            <span class="calc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="5" y="2.8" width="14" height="18.4" rx="2"/><path d="M8.2 6.2h7.6"/><circle cx="8.8" cy="10.6" r="0.95" fill="currentColor" stroke="none"/><circle cx="12" cy="10.6" r="0.95" fill="currentColor" stroke="none"/><circle cx="15.2" cy="10.6" r="0.95" fill="currentColor" stroke="none"/><circle cx="8.8" cy="14" r="0.95" fill="currentColor" stroke="none"/><circle cx="12" cy="14" r="0.95" fill="currentColor" stroke="none"/><circle cx="15.2" cy="14" r="0.95" fill="currentColor" stroke="none"/><circle cx="8.8" cy="17.4" r="0.95" fill="currentColor" stroke="none"/><circle cx="12" cy="17.4" r="0.95" fill="currentColor" stroke="none"/><circle cx="15.2" cy="17.4" r="0.95" fill="currentColor" stroke="none"/></svg></span>
             <h2>Calculadora de prestaciones</h2>
             <p>Calcula tu finiquito y liquidación en un minuto</p>
             <div class="cta">
